@@ -3615,10 +3615,10 @@
 			-webkit-transform: scale(1.0);
 			-ms-transform: scale(1.0);
 			transform: scale(1.0);
-			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-			transition: opacity 1s ease, transform 1s ease;
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease;
 			opacity: 1;
 			position: relative;
 			z-index: 2;
@@ -3684,10 +3684,10 @@
 			-webkit-transition: height 0.2s ease;
 			-ms-transition: height 0.2s ease;
 			transition: height 0.2s ease;
-			-moz-animation: more 0.75s ease-out 3s forwards;
-			-webkit-animation: more 0.75s ease-out 3s forwards;
-			-ms-animation: more 0.75s ease-out 3s forwards;
-			animation: more 0.75s ease-out 3s forwards;
+			-moz-animation: more 0.75s ease-out 1s forwards;
+			-webkit-animation: more 0.75s ease-out 1s forwards;
+			-ms-animation: more 0.75s ease-out 1s forwards;
+			animation: more 0.75s ease-out 1s forwards;
 			background-color: rgba(255, 255, 255, 0.15);
 			border: 0;
 			border-radius: 1em 1em 0 0;
@@ -3736,14 +3736,10 @@
 			}
 
 		#banner:before {
-			-moz-transition: opacity 3s ease;
-			-webkit-transition: opacity 3s ease;
-			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-ms-transition: opacity 1s ease;
+			transition: opacity 1s ease;
 			content: '';
 			display: block;
 			background-color: #000;
@@ -3956,10 +3952,10 @@
 			-webkit-transform: scale(1.0);
 			-ms-transform: scale(1.0);
 			transform: scale(1.0);
-			-moz-transition: opacity 1.25s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 1.25s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 1.25s ease, -ms-transform 1s ease;
-			transition: opacity 1.25s ease, transform 1s ease;
+			-moz-transition: opacity 0.75s ease, -moz-transform 0.5s ease;
+			-webkit-transition: opacity 0.75s ease, -webkit-transform 0.5s ease;
+			-ms-transition: opacity 0.75s ease, -ms-transform 0.5s ease;
+			transition: opacity 0.75s ease, transform 0.5s ease;
 			opacity: 0;
 			position: relative;
 			z-index: 2;
@@ -3970,14 +3966,10 @@
 			}
 
 		.post:before {
-			-moz-transition: opacity 3s ease;
-			-webkit-transition: opacity 3s ease;
-			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-ms-transition: opacity 1s ease;
+			transition: opacity 1s ease;
 			content: '';
 			display: block;
 			background-color: #000;
