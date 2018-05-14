@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700");
 
 /*
 	Caminar by TEMPLATED
@@ -2688,7 +2688,7 @@
 
 		.spotlight.alt {
 			background: #1e1f23;
-			color: rgba(255, 255, 255, 0.25);
+			color: #f2f2f2;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -2716,6 +2716,10 @@
 			}
 
 			.spotlight.alt h3 {
+				color: #FFF;
+			
+			}
+			.spotlight.alt h4 {
 				color: #FFF;
 			}
 
@@ -2901,7 +2905,8 @@
 /* Header */
 
 	body {
-		background-color: #1e1f23;
+		/*background-color: #1e1f23;*/
+		background-color: #280754;
 		padding-top: 8rem;
 	}
 
@@ -2920,7 +2925,7 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			background-image: url(../../images/bb.JPG);
+			/*background-image: url(../../images/bh.jpg);*/
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
