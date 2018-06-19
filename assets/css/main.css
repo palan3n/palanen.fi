@@ -1784,7 +1784,12 @@
 	}
 
 	a {
-		color: #54a354;
+		color: #404040;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
 	}
 
 	strong, b {
@@ -2675,7 +2680,8 @@
 		}
 
 		.spotlight .inner {
-			padding: 6rem;
+			padding-right: 6rem;
+			padding-left: 6rem;
 		}
 
 		.spotlight .image {
@@ -2733,7 +2739,8 @@
 		@media screen and (max-width: 1280px) {
 
 			.spotlight .inner {
-				padding: 4rem;
+				padding-right: 4rem;
+				padding-left: 4rem;
 			}
 
 		}
@@ -2925,7 +2932,7 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			/*background-image: url(../../images/bh.jpg);*/
+			background-image: url(../../images/bernal_gradient_1blue.jpg);
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -2966,7 +2973,8 @@
 
 			#header > .logo a {
 				font-size: 4rem;
-				font-weight: 700;
+				font-family: Kurale;
+				font-weight: 400;
 				color: #FFF;
 				text-decoration: none;
 				line-height: 1rem;
@@ -3010,9 +3018,9 @@
 		max-width: 90%;
 		margin-bottom: 2rem;
 		background: rgba(255, 255, 255, 0.95);
-		-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-		-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.4);
+		box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.4);
 		border-radius: 4px;
 	}
 
@@ -3058,8 +3066,8 @@
 		.wrapper > header p {
 			text-transform: uppercase;
 			font-weight: 300;
-			font-size: .8rem;
-			letter-spacing: .25rem;
+			font-size: 1rem;
+			letter-spacing: .35rem;
 			margin: 0;
 		}
 
@@ -3092,13 +3100,19 @@
 		}
 
 	.wrapper.style1 .content {
-		padding: 6rem;
+			padding-top: 6rem;
+			padding-right: 10rem;
+			padding-bottom: 6rem;
+			padding-left: 10rem;
 	}
 
 		@media screen and (max-width: 1280px) {
 
 			.wrapper.style1 .content {
-				padding: 4rem;
+				padding-top: 4rem;
+				padding-right: 6rem;
+				padding-bottom: 4rem;
+				padding-left: 6rem;
 			}
 
 		}
@@ -3106,7 +3120,10 @@
 		@media screen and (max-width: 736px) {
 
 			.wrapper.style1 .content {
-				padding: 2rem;
+				padding-top: 2rem;
+				padding-right: 4rem;
+				padding-bottom: 2rem;
+				padding-left: 4rem;
 			}
 
 		}
@@ -3155,22 +3172,29 @@
 		padding: 2rem 0 0.1rem 0 ;
 		text-align: center;
 	}
+	#footer .body{
+		color: #bbb;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
 
-		#footer a {
-			color: rgba(255, 255, 255, 0.75);
-		}
+	#footer a {
+		color: rgba(255, 255, 255, 0.75);
+	}
 
-			#footer a:hover {
-				color: #FFF;
-			}
+	#footer a:hover {
+		color: #FFF;
+	}
 
-		#footer .copyright {
-			color: #bbb;
-			font-size: 0.9rem;
-			margin: 0 0 2rem 0;
-			padding: 0 1rem;
-			text-align: center;
-		}
+	#footer .copyright {
+		color: #bbb;
+		font-size: 0.9rem;
+		margin: 0 0 2rem 0;
+		padding: 0 1rem;
+		text-align: center;
+		opacity: 0.3;
+	}
+
 
 		@media screen and (max-width: 736px) {
 
