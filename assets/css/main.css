@@ -2741,6 +2741,8 @@
 			.spotlight .inner {
 				padding-right: 4rem;
 				padding-left: 4rem;
+				padding-top: 2rem;
+				padding-bottom: 2rem;
 			}
 
 		}
@@ -2990,6 +2992,16 @@
 				color: rgba(255, 255, 255, 0.65);
 			}
 
+			#header > .logo p{
+				color: #fff;
+				opacity: 0.8;
+			}
+
+			#header > .logo h2{
+				padding: 2rem;
+				color: #fff;
+				margin: 0;
+			}
 
 	@media screen and (max-width: 1280px) {
 
