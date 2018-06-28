@@ -2972,13 +2972,16 @@
 		}
 
 			#header > .logo a {
-				font-size: 4rem;
-				font-family: Kurale;
-				font-weight: 400;
+				font-size: 1rem;
+				font-family: Poppins;
+				font-weight: 100;
 				color: #FFF;
 				text-decoration: none;
+				text-transform: uppercase;
+				letter-spacing: 0.35rem;
 				line-height: 1rem;
 			}
+
 
 			#header > .logo span {
 				font-weight: 300;
@@ -2986,6 +2989,7 @@
 				display: block;
 				color: rgba(255, 255, 255, 0.65);
 			}
+
 
 	@media screen and (max-width: 1280px) {
 
@@ -3005,7 +3009,7 @@
 		}
 
 			#header > .logo a {
-				font-size: 3rem;
+				font-size: 1rem;
 			}
 
 	}
