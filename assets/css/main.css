@@ -2641,6 +2641,7 @@ input[type="radio"]:focus+label:before {
 
 .image.flush {
     margin: 0 !important;
+
 }
 
 .image img {
@@ -2959,10 +2960,12 @@ header p {
 
 .spotlight .image {
     margin: 0;
+    overflow: hidden;
 }
 
 .spotlight .image img {
     width: 100%;
+    min-width: 508px;
 }
 
 .spotlight.alt {
@@ -3342,6 +3345,7 @@ body:after {
 
     #main .image img {
         width: 100%;
+        min-width: 100%;
     }
 }
 
