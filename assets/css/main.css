@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700");
 
 
+
+
+
+
+
 /*
 	Caminar by TEMPLATED
 	templated.co @templatedco
@@ -146,6 +151,11 @@ body {
 }
 
 
+
+
+
+
+
 /* Box Model */
 
 *,
@@ -155,6 +165,11 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+
+
+
+
 
 
 /* Containers */
@@ -310,6 +325,11 @@ body {
         width: 90% !important;
     }
 }
+
+
+
+
+
 
 
 /* Grid */
@@ -1714,6 +1734,11 @@ body {
 }
 
 
+
+
+
+
+
 /* Basic */
 
 @-ms-viewport {
@@ -1748,6 +1773,11 @@ body.is-loading *:after {
     -ms-transition: none !important;
     transition: none !important;
 }
+
+
+
+
+
 
 
 /* Type */
@@ -2003,6 +2033,11 @@ hr {
 }
 
 
+
+
+
+
+
 /* Box */
 
 .box {
@@ -2078,6 +2113,11 @@ hr {
 .box {
     border-color: rgba(144, 144, 144, 0.25);
 }
+
+
+
+
+
 
 
 /* Button */
@@ -2263,6 +2303,11 @@ button.special:active,
 .button.special:active {
     background-color: #4b924b;
 }
+
+
+
+
+
 
 
 /* Form */
@@ -2504,6 +2549,11 @@ input[type="radio"]:focus+label:before {
 }
 
 
+
+
+
+
+
 /* Gallery */
 
 .gallery {
@@ -2550,6 +2600,11 @@ input[type="radio"]:focus+label:before {
 }
 
 
+
+
+
+
+
 /* Icon */
 
 .icon {
@@ -2570,6 +2625,11 @@ input[type="radio"]:focus+label:before {
 .icon>.label {
     display: none;
 }
+
+
+
+
+
 
 
 /* Image */
@@ -2628,6 +2688,11 @@ input[type="radio"]:focus+label:before {
 .image.main img {
     width: 100%;
 }
+
+
+
+
+
 
 
 /* List */
@@ -2807,6 +2872,11 @@ ul.alt li {
 }
 
 
+
+
+
+
+
 /* Section/Article */
 
 section.special,
@@ -2839,6 +2909,11 @@ header h6+p {
 header p {
     color: #bbb;
 }
+
+
+
+
+
 
 
 /*Spotlight */
@@ -3020,6 +3095,11 @@ header p {
 }
 
 
+
+
+
+
+
 /* Table */
 
 .table-wrapper {
@@ -3106,6 +3186,11 @@ table tfoot {
 table.alt tbody tr td {
     border-color: rgba(144, 144, 144, 0.25);
 }
+
+
+
+
+
 
 
 /* Header */
@@ -3227,6 +3312,11 @@ body:after {
 }
 
 
+
+
+
+
+
 /* Main */
 
 #main>.inner {
@@ -3335,9 +3425,9 @@ body:after {
 
     .wrapper.style1 .content {
         padding-top: 2rem;
-        padding-right: 4rem;
+        padding-right: 3rem;
         padding-bottom: 2rem;
-        padding-left: 4rem;
+        padding-left: 3rem;
     }
 }
 
@@ -3378,6 +3468,11 @@ body:after {
 }
 
 
+
+
+
+
+
 /* Footer */
 
 #footer {
@@ -3386,7 +3481,7 @@ body:after {
 }
 
 #footer .body {
-    color: #bbb;
+    color: #e6e6e6;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
@@ -3396,7 +3491,7 @@ body:after {
 }
 
 #footer a:hover {
-    color: #FFF;
+    color: #06dce0;
 }
 
 #footer .copyright {
